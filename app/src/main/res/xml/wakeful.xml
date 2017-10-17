@@ -1,0 +1,3 @@
+<WakefulIntentService
+    listener="ota.os.infinite.infiniteota.scheduler.OTAListener"
+    />
