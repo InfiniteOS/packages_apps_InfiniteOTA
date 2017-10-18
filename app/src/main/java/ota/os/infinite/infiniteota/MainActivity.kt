@@ -21,8 +21,8 @@ class MainActivity : PreferenceActivity(), WaitDialogFragment.OTADialogListener,
                     .replace(android.R.id.content, InfiniteOTAFragment(), FRAGMENT_TAG)
                     .commit()
         }
-
-        //actionBar!!.setDisplayHomeAsUpEnabled(true)
+        //actionBar.show()
+        //actionBar.setDisplayHomeAsUpEnabled(true)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
